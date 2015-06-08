@@ -19,3 +19,6 @@
 [submodule "TM_4_0_JSON_Data"]
 	path = build/TM_4_0_JSON_Data
 	url = git@github.com:TeamMentor/TM_4_0_JSON_Data.git
+[submodule "config/SiteData_TM_4"]
+	path = config/SiteData_TM_4
+	url = git@github.com:TMClients/SiteData_TM_4.git
