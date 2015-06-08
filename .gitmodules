@@ -1,15 +1,21 @@
 [submodule "TM_4_0_Design"]
-	path = TM_4_0_Design
+	path = code/TM_4_0_Design
 	url = git@github.com:TeamMentor/TM_4_0_Design.git
 [submodule "TM_4_0_GraphDB"]
-	path = TM_4_0_GraphDB
+	path = code/TM_4_0_GraphDB
 	url = git@github.com:TeamMentor/TM_4_0_GraphDB.git
 [submodule "TM_4_0_QA"]
-	path = TM_4_0_QA
+	path = qa/TM_4_0_QA
 	url = git@github.com:TeamMentor/TM_4_0_QA.git
 [submodule "Lib_UNO"]
-	path = Lib_UNO
+	path = data/Lib_UNO
 	url = git@github.com:TMContent/Lib_UNO.git
 [submodule "Lib_UNO-json"]
-	path = Lib_UNO-json
+	path = data/Lib_UNO-json
 	url = git@github.com:TMContent/Lib_UNO-json.git
+[submodule "Lib_Docs-json"]
+	path = data/Lib_Docs-json
+	url = git@github.com:TMContent/Lib_Docs-json.git
+[submodule "TM_4_0_JSON_Data"]
+	path = build/TM_4_0_JSON_Data
+	url = git@github.com:TeamMentor/TM_4_0_JSON_Data.git
