@@ -31,3 +31,6 @@
 [submodule "code/TM_4_Static"]
 	path = code/TM_Static
 	url = git@github.com:TeamMentor/TM_Static.git
+[submodule "code/TM_Shared"]
+	path = code/TM_Shared
+	url = git@github.com:TeamMentor/TM_Shared.git
