@@ -2,8 +2,8 @@
 	path = code/TM_4_0_Design
 	url = git@github.com:TeamMentor/TM_4_0_Design.git
 [submodule "TM_4_0_GraphDB"]
-	path = code/TM_4_0_GraphDB
-	url = git@github.com:TeamMentor/TM_4_0_GraphDB.git
+	path = code/TM_GraphDB
+	url = git@github.com:TeamMentor/TM_GraphDB.git
 [submodule "TM_4_0_QA"]
 	path = qa/TM_4_0_QA
 	url = git@github.com:TeamMentor/TM_4_0_QA.git
