@@ -22,3 +22,12 @@
 [submodule "config/SiteData_TM_4"]
 	path = config/SiteData_TM_4
 	url = git@github.com:TMClients/SiteData_TM_4.git
+[submodule "code/TM_4_Jade"]
+	path = code/TM_4_Jade
+	url = git@github.com:TeamMentor/TM_4_Jade.git
+[submodule "code/TM_4_Flare"]
+	path = code/TM_4_Flare
+	url = git@github.com:TeamMentor/TM_4_Flare.git
+[submodule "code/TM_4_Static"]
+	path = code/TM_4_Static
+	url = git@github.com:TeamMentor/TM_4_Static.git
