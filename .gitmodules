@@ -1,6 +1,3 @@
-[submodule "TM_4_0_Design"]
-	path = code/TM_4_0_Design
-	url = git@github.com:TeamMentor/TM_4_0_Design.git
 [submodule "TM_4_0_GraphDB"]
 	path = code/TM_GraphDB
 	url = git@github.com:TeamMentor/TM_GraphDB.git
