@@ -6,8 +6,6 @@ git submodule update
 cd code
 
 cd TM_Website
-pwd
-ls -la
 npm install
 cd
 
