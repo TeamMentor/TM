@@ -17,8 +17,8 @@
 	path = build/TM_4_0_JSON_Data
 	url = git@github.com:TeamMentor/TM_4_0_JSON_Data.git
 [submodule "config/SiteData_TM_4"]
-	path = config/SiteData_TM_4
-	url = git@github.com:TMClients/SiteData_TM_4.git
+	path = config/SiteData_TM
+	url = git@github.com:TMClients/SiteData_TM.git
 [submodule "code/TM_4_Jade"]
 	path = code/TM_Jade
 	url = git@github.com:TeamMentor/TM_Jade.git
