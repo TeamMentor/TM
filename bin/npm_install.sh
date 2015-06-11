@@ -5,8 +5,12 @@ git submodule update
 
 cd code
 
-cd TM_Website
-npm install
-cd
+function npm_Install() {
+  echo Running npm install on folder: $1
+  cd $1
+  npm install
+  cd ..
+}
 
-pwd
+npm_Install TM_Website
+npm_Install TM_Shared
