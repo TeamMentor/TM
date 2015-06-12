@@ -8,10 +8,10 @@ cd  code/TM_Website
 node app.js &
 cd ../..
 
-#echo Starting TM_4_0_GraphDB
-#cd   code/TM_4_0_GraphDB
+echo [bash]Starting TM_4_0_GraphDB
+cd   code/TM_GraphDB
 ##npm run dev &
-#node index.js  &
-#cd   ../..
+node index.js  &
+cd   ../..
 
 wait

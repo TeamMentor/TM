@@ -12,5 +12,6 @@ function npm_Install() {
   cd ..
 }
 
-npm_Install TM_Website
+npm_Install TM_GraphDB
 npm_Install TM_Shared
+npm_Install TM_Website
