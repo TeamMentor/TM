@@ -1,18 +1,18 @@
 #!/usr/bin/env bash
 
 cd code
-git fetch origin
 
-function fetch_Repo() {
+function git_Status() {
   echo -e "\n------------------- $1 ------------------- \n"
   cd $1
   git status
   cd ..
 }
-fetch_Repo TM_Flare
-fetch_Repo TM_GraphDB
-fetch_Repo TM_Jade
-fetch_Repo TM_Shared
-fetch_Repo TM_Static
-fetch_Repo TM_Website
-fetch_Repo ../config/SiteData_TM
+git_Status TM_Flare
+git_Status TM_GraphDB
+git_Status TM_Jade
+git_Status TM_Shared
+git_Status TM_Static
+git_Status TM_Website
+git_Status ../config/SiteData_TM
+git_Status .
