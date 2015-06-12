@@ -1,10 +1,8 @@
 #!/bin/bash
 
-export TM_SITE_DATA=SiteData_TM_4
+#export TM_SITE_DATA=SiteData_TM
 
-echo Setting SiteData to ${siteData}
-
-echo Starting TM_Website
+echo [bash] Starting TM_Website
 cd  code/TM_Website
 #npm start &\
 node app.js &
