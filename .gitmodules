@@ -1,9 +1,6 @@
 [submodule "TM_4_0_GraphDB"]
 	path = code/TM_GraphDB
 	url = git@github.com:TeamMentor/TM_GraphDB.git
-[submodule "TM_4_0_QA"]
-	path = qa/TM_4_0_QA
-	url = git@github.com:TeamMentor/TM_4_0_QA.git
 [submodule "Lib_UNO"]
 	path = data/Lib_UNO
 	url = git@github.com:TMContent/Lib_UNO.git
