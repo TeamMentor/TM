@@ -31,3 +31,6 @@
 [submodule "code/TM_Website"]
 	path = code/TM_Website
 	url = git@github.com:TeamMentor/TM_Website.git
+[submodule "TM_QA"]
+	path = qa/TM_QA
+	url = git@github.com:TeamMentor/TM_QA.git
