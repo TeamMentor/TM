@@ -15,4 +15,6 @@ git_Status TM_Shared
 git_Status TM_Static
 git_Status TM_Website
 git_Status ../config/SiteData_TM
+
+cd ..
 git_Status .
