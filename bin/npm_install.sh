@@ -15,3 +15,5 @@ function npm_Install() {
 npm_Install TM_GraphDB
 npm_Install TM_Shared
 npm_Install TM_Website
+cd ../build
+npm_Install TM_4_0_JSON_Data
