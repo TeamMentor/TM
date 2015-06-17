@@ -2,8 +2,6 @@
 
 echo -e "\n---- reloading tm graph from Lib_Uno data ----\n"
 
-echo "... rebuilding json files"
-
 cd build/TM_4_0_JSON_Data
 
 ./src/tool-update-mappings.coffee
