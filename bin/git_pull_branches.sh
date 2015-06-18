@@ -6,7 +6,9 @@ if [[ -z $1 ]]; then
 fi
 
 cd code
-git fetch origin
+git checkout $1
+git pull origin $1:$1
+git submodule update
 
 function pull_Repo() {
   echo -------------------------------------------------
