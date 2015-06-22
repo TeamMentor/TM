@@ -11,19 +11,21 @@ cd code
 git checkout $1
 git submodule update
 
-function pull_Repo() {
+function checkout_Branch() {
   echo -------------------------------------------------
   echo Checking branch $1 on repo $2
   cd $2
   git checkout $1
   cd ..
 }
-pull_Repo $1 TM_Flare
-pull_Repo $1 TM_GraphDB
-pull_Repo $1 TM_Jade
-pull_Repo $1 TM_Shared
-pull_Repo $1 TM_Static
-pull_Repo $1 TM_Website
+checkout_Branch $1 TM_Flare
+checkout_Branch $1 TM_GraphDB
+checkout_Branch $1 TM_Jade
+checkout_Branch $1 TM_Shared
+checkout_Branch $1 TM_Static
+checkout_Branch $1 TM_Website
 
 cd ../config
-pull_Repo $1 SiteData_TM
+checkout_Branch $1 SiteData_TM
+cd ../qa
+checkout_Branch $1 TM_QA
