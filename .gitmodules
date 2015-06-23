@@ -34,3 +34,6 @@
 [submodule "TM_QA"]
 	path = qa/TM_QA
 	url = git@github.com:TeamMentor/TM_QA.git
+[submodule "config/TM_Gulp"]
+	path = build/TM_Gulp
+	url = git@github.com:TeamMentor/TM_Gulp.git
