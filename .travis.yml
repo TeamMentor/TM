@@ -1,0 +1,15 @@
+sudo: false
+language: node_js
+node_js:
+ - 0.12
+before_install:
+- export DISPLAY=:99.0
+- sh -e /etc/init.d/xvfb start
+- ./bin/npm_install.sh
+- cd code/TM_Website
+- npm test
+
+
+notifications:
+  slack:
+    secure: d9spkOFp62ic85Oovs/vuHOAAMCNXdmkvMSFeJGqpD70NxixNm3EJNAg9u34dq1OvyPkItbjHZZU6B/CEUwSTPcIsyJOsSO1g95hYT95LXOtvVdqXnLQL92ADZ/zT8bI5yYWu/E+JIeEyr8sbEMXBU5KVkxHfWSHo7xugNdhL/A=
