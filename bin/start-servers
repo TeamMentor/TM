@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#export TM_SITE_DATA=SiteData_TM
-
 echo [bash] Starting TM_Website
 cd  code/TM_Website
 node app.js &
