@@ -17,34 +17,34 @@ echo $srvcName
 
 case "$1" in
   install)
-  [ -n "$3 ] || log_usage
-  [ -n "$4 ] || log_usage
-	cd code/$2
-	node ./node_modules/winser/bin/winser -i -n $srvcName --startcmd "node app.js" 
-	cd $startdir
-	sc config $srvcName obj= .\\$3 password= $4
-	;;
+    [ -n "$3 ] || log_usage
+    [ -n "$4 ] || log_usage
+    cd code/$2
+    node ./node_modules/winser/bin/winser -i -n $srvcName --startcmd "node app.js" 
+    cd $startdir
+    sc config $srvcName obj= .\\$3 password= $4
+    ;;
   stop)
-  sc stop $srvcName
-	;;
+    sc stop $srvcName
+    ;;
   start)
-  sc start $srvcName
-  sleep 3
-  sc query $srvcName
-	;;
+    sc start $srvcName
+    sleep 3
+    sc query $srvcName
+    ;;
   uninstall)
-  sc stop $srvcName
-  sleep 3
-	cd code/$2
-	node ./node_modules/winser/bin/winser -r -n $srvcName 
-	cd $startdir
-	;;
+    sc stop $srvcName
+    sleep 3
+    cd code/$2
+    node ./node_modules/winser/bin/winser -r -n $srvcName 
+    cd $startdir
+    ;;
   status)
-	sc query $srvcName 
-	;;
+    sc query $srvcName 
+    ;;
   *)
-	log_usage
-	;;
+    log_usage
+    ;;
 esac
 
 :
