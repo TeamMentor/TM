@@ -1,12 +1,6 @@
 [submodule "TM_4_0_GraphDB"]
 	path = code/TM_GraphDB
 	url = git@github.com:TeamMentor/TM_GraphDB.git
-[submodule "Lib_UNO"]
-	path = data/Lib_UNO
-	url = git@github.com:TMContent/Lib_UNO.git
-[submodule "Lib_UNO-json"]
-	path = data/Lib_UNO-json
-	url = git@github.com:TMContent/Lib_UNO-json.git
 [submodule "Lib_Docs-json"]
 	path = data/Lib_Docs-json
 	url = git@github.com:TMContent/Lib_Docs-json.git
