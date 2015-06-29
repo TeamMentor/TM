@@ -4,7 +4,7 @@ echo -e "\n---- reloading tm graph from Lib_Uno data ----\n"
 
 cd build/TM_4_0_JSON_Data
 
-./src/tool-update-mappings.coffee
+node ./node_modules/coffee-script/bin/coffee ./src/tool-update-mappings.coffee
 
 cd ../..
 
