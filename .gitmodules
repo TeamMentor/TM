@@ -37,3 +37,6 @@
 [submodule "config/TM_Gulp"]
 	path = build/TM_Gulp
 	url = git@github.com:TeamMentor/TM_Gulp.git
+[submodule "code/TM_Angular"]
+	path = code/TM_Angular
+	url = git@github.com:TeamMentor/TM_Angular.git
