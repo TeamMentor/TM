@@ -3,10 +3,12 @@
 	url = git@github.com:TeamMentor/TM_GraphDB.git
 [submodule "Lib_UNO"]
 	path = data/Lib_UNO
-	url = git@github.com:TMContent/Lib_UNO.git
+	url = git@github.com:tm-sme/Lib_UNO.git
+	branch = Beta
 [submodule "Lib_UNO-json"]
 	path = data/Lib_UNO-json
-	url = git@github.com:TMContent/Lib_UNO-json.git
+	url = git@github.com:tm-sme/Lib_UNO-json.git
+	branch = Beta
 [submodule "Lib_Docs-json"]
 	path = data/Lib_Docs-json
 	url = git@github.com:TMContent/Lib_Docs-json.git
