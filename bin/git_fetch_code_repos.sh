@@ -9,6 +9,7 @@ function fetch_Repo() {
   git fetch origin
   cd ..
 }
+fetch_Repo TM_Angular
 fetch_Repo TM_Flare
 fetch_Repo TM_GraphDB
 fetch_Repo TM_Jade
