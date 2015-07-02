@@ -11,7 +11,7 @@ function npm_Install() {
   npm install
   cd ..
 }
-
+npm_Install TM_Angular
 npm_Install TM_GraphDB
 npm_Install TM_Shared
 npm_Install TM_Website
