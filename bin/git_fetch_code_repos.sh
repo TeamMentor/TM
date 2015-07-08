@@ -16,3 +16,8 @@ fetch_Repo TM_Jade
 fetch_Repo TM_Shared
 fetch_Repo TM_Static
 fetch_Repo TM_Website
+
+cd ../data
+
+fetch_Repo Lib_UNO
+fetch_Repo Lib_UNO-json
