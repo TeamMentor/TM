@@ -23,7 +23,8 @@ echo F| XCOPY .\data\Lib_UNO\__Graph_Data .\data\Lib_UNO-json\Graph_Data /i
 
 cd .\code\TM_GraphDB\.tmCache
 echo "%dir%"
-@REM File to be deleted
+
+
 SET FileToDelete="tm-uno-loaded.flag"
 
 echo "... deleting tm-uno-loaded.flag if exist..."
@@ -31,6 +32,6 @@ IF EXIST %FileToDelete% del \F %FileToDelete%
 
 echo "... deleting cache files..."
 
-IF EXIST data_cache rd /s /q data_cache
+IF EXIST data_cache rmdir /s /q data_cache
 echo "... Data has been published\n\n"
 echo "... all done, you can restart the node server now"
