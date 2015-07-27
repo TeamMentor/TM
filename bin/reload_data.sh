@@ -24,7 +24,7 @@ node ./node_modules/coffee-script/bin/coffee ./src/tool-update-mappings.coffee
 cd ../..
 
 echo "...copy Graph_Data..."
-cp -R data/Lib_UNO/__Graph_Data/ data/Lib_UNO-json/Graph_Data
+cp -R data/Lib_UNO/__Graph_Data/* data/Lib_UNO-json/Graph_Data
 
 cd code/TM_GraphDB/.tmCache
 rm tm-uno-loaded.flag
