@@ -19,7 +19,7 @@ cd ..\..\..\
 
 echo "...copy Graph_Data..."
 echo "%dir%"
-echo F| XCOPY .\data\Lib_UNO\__Graph_Data .\data\Lib_UNO-json\Graph_Data /i
+XCOPY .\data\Lib_UNO\__Graph_Data\*.* .\data\Lib_UNO-json\Graph_Data /Y /E
 
 cd .\code\TM_GraphDB\.tmCache
 echo "%dir%"
@@ -28,10 +28,16 @@ echo "%dir%"
 SET FileToDelete="tm-uno-loaded.flag"
 
 echo "... deleting tm-uno-loaded.flag if exist..."
-IF EXIST %FileToDelete% del \F %FileToDelete%
+IF EXIST %FileToDelete% del /F %FileToDelete%
 
 echo "... deleting cache files..."
 
 IF EXIST data_cache rmdir /s /q data_cache
+cd ..\..\..\
+echo "... restarting TM..."
+"c:\Program Files (x86)\Git\bin\sh.exe" -login -c "./bin/winTM.sh stop"
+"c:\Program Files (x86)\Git\bin\sh.exe" -login -c "./bin/winTM.sh start"
+
+
 echo "... Data has been published\n\n"
 echo "... all done, you can restart the node server now"
