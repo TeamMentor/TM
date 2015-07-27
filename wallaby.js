@@ -12,12 +12,13 @@ module.exports = function (wallaby) {
              'code/TM_Shared/**/*.*coffee',
              'code/TM_Static/**/*.*',
              'code/TM_Website/src/**/*.coffee',
+             'data/Lib_Docs-json/**/*.*',
              'config/SiteData_TM/**/*.*'
            ],
 
     tests: [
-            //"code/TM_Website/test/**/*.coffee"
-            "code/TM_Website/test/**/Jade-Service*.coffee"
+            "code/TM_Website/test/**/*.coffee"
+            //"code/TM_Website/test/**/Jade-Service*.coffee"
            ],
 
     env: {
