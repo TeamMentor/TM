@@ -18,6 +18,7 @@ git_Status TM_Website
 git_Status ../config/SiteData_TM
 git_Status ../data/Lib_UNO
 git_Status ../data/Lib_UNO-json
+git_Status ../data/Lib_Docs-json
 
 cd ..
 git_Status .
