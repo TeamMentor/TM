@@ -12,6 +12,7 @@ module.exports = function (wallaby) {
              'code/TM_Shared/**/*.*coffee',
              'code/TM_Static/**/*.css',
              'code/TM_Static/**/*.md',
+             'code/TM_Static/assets/clients/logos.jpg',
              'code/TM_Angular/build/**/*.*',
              'code/TM_Website/src/**/*.coffee',
              'data/Lib_Docs-json/Library/**/*.json',
