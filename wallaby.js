@@ -18,7 +18,7 @@ module.exports = function (wallaby) {
              'data/Lib_Docs-json/Library/**/*.json',
              'data/Lib_Docs-json/Articles_Html/00000000*.json',
              'data/Lib_Docs-json/_Images/editingoverview-img2.jpg',
-             'config/SiteData_TM/**/*.json'
+             'config/SiteData_TM/**/*.json',
            ],
 
     tests: [
