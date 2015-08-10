@@ -27,3 +27,5 @@ pull_Repo $1 TM_Website
 
 cd ../config
 pull_Repo $1 SiteData_TM
+cd ../qa
+pull_Repo $1 TM_QA
