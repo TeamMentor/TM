@@ -33,6 +33,8 @@ IF EXIST %FileToDelete% del /F %FileToDelete%
 echo "... deleting cache files..."
 
 IF EXIST data_cache rmdir /s /q data_cache
+IF EXIST search_cache rmdir /s /q search_cache
+
 cd ..\..\..\
 echo "... restarting TM..."
 "c:\Program Files (x86)\Git\bin\sh.exe" -login -c "./bin/winTM.sh stop"
