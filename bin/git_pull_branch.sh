@@ -18,6 +18,7 @@ function pull_Repo() {
   git pull origin $1:$1
   cd ..
 }
+pull_Repo $1 TM_Angular
 pull_Repo $1 TM_Flare
 pull_Repo $1 TM_GraphDB
 pull_Repo $1 TM_Jade
