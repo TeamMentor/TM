@@ -1,7 +1,11 @@
 #!/bin/bash
 
 #export TM_SITE_DATA=SiteData_TM
+echo [bash] starting gulp watch
+cd build/TM_Gulp/
+npm run gulp-watch &
 
+cd ../..
 echo [bash] Starting TM_Website
 cd  code/TM_Website
 npm start &
