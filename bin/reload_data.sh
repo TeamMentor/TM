@@ -31,6 +31,7 @@ rm tm-uno-loaded.flag
 
 echo "... deleting cache files..."
 rm -R data_cache
+rm -R search_cache
 echo "... all done, you can restart the node server now"
 cd ..
 pwd
