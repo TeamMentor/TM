@@ -8,8 +8,8 @@ if [[ -z $1 ]]; then
 fi
 
 cd code
-git checkout $1
-git submodule update
+#git checkout $1
+#git submodule update
 
 function checkout_Branch() {
   echo -------------------------------------------------
@@ -18,6 +18,7 @@ function checkout_Branch() {
   git checkout $1
   cd ..
 }
+checkout_Branch $1 TM_Angular
 checkout_Branch $1 TM_Flare
 checkout_Branch $1 TM_GraphDB
 checkout_Branch $1 TM_Jade
