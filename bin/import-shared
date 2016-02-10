@@ -1,13 +1,23 @@
 SERVICES="TM_GraphDB TM_Website"
 
+
+
+if [ ! -f ./config/SiteData/TM/instance_id ] 
+then
+    randid=`cat /dev/urandom | tr -cd '[:alnum:]' | head -c4`
+    echo $randid > ./config/SiteData/TM/instance_id
+fi
+
+inst_id=`cat ./config/SiteData/TM/instance_id`
+
 log_exit () {
     echo -n "$@..."
     exit 0
 }
 
 tm_inst_id () {
-    inst_id=`pwd | sed  's|^.*\(TM.*\)Site_\(.*\)\.teammentor.*|\1\2|'`
-    [ -n "$inst_id" ] || inst_id=`pwd | sed 's|/|-|g' | sed 's|teammentor||ig' |sed 's|\.net||ig' |`
+#    inst_id=`pwd | sed  's|^.*\(TM.*\)Site_\(.*\)\.teammentor.*|\1\2|'`
+#    [ -n "$inst_id" ] || inst_id=`pwd | sed 's|/|-|g' | sed 's|teammentor||ig' |sed 's|\.net||ig' |`
     echo $inst_id
 }
 
