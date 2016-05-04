@@ -34,9 +34,3 @@
 [submodule "code/TM_Angular"]
 	path = code/TM_Angular
 	url = git@github.com:TeamMentor/TM_Angular.git
-[submodule "data/Lib_UNO"]
-	path = data/Lib_UNO
-	url = git@github.com:tm-sme/Lib_UNO
-[submodule "data/Lib_UNO-json"]
-	path = data/Lib_UNO-json
-	url = git@github.com:tm-sme/Lib_UNO-json
