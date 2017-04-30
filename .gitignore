@@ -29,3 +29,7 @@ node_modules
 .dist
 .logs
 .tmCache
+
+#Doc/Help stuff
+build/TM_DocsGenerate/
+data/Lib_Docs/
